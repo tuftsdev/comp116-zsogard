@@ -56,6 +56,7 @@ mirror.us.leaseweb.net (108.59.10.97)
 s3-1.amazonaws.com (54.231.16.224)
 star.c10r.facebook.com (173.252.110.27)
 
+My methodology was to enable the resolve IP addresses option in Wireshark and look at each unique resolved IP.
 General Questions:
 19. Follow the TCP stream associated with the packet and look for a server's response indicating a successful login such as "success", "access granted", "login ok", etc.
 20. The owners of these pairs should use encrypted or secure protocols instead of the ones they used. For example use HTTPS instead of HTTP, SFTP instead of FTP, etc.
